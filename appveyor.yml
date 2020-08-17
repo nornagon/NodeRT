@@ -8,4 +8,4 @@ install:
 
 after_build:
   - dir "c:\program files (x86)\windows kits\10\unionmetadata"
-  - C:\projects\nodert\src\NodeRTCmd\bin\Debug\NodeRTCmd.exe --winmd "c:\Program Files (x86)\Windows Kits\10\UnionMetadata\Windows.winmd" --outdir c:\projects\nodert\out --verbose
+  - C:\projects\nodert\src\NodeRTCmd\bin\Debug\NodeRTCmd.exe --winmd "c:\Program Files (x86)\Windows Kits\10\UnionMetadata\Windows.winmd" --outdir c:\projects\nodert\out --verbose --nobuild
